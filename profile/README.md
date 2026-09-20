@@ -29,6 +29,10 @@ Every template ships an `AGENTS.md`, so Claude Code, Cursor, Copilot or whatever
 conventions instead of guessing at them. Ask for a marketing site and you get a marketing site,
 not a documentation site with the words changed.
 
+Using Claude Code? **[site-skills](https://github.com/BootForm/site-skills)** is a plugin
+marketplace: `/plugin marketplace add BootForm/site-skills`, then ask for a portfolio, a blog, or
+a marketing site with a working contact form, no account needed until you claim it.
+
 ## While you wait
 
 The BootForm documentation is already live and free to read, including framework guides for
