@@ -18,7 +18,7 @@ you can send to someone.
 | **[vitepress-marketing](https://github.com/BootForm/vitepress-marketing)** | VitePress as a proper marketing site with a blog. Not a docs site wearing a hat. |
 | **[vitepress-blog](https://github.com/BootForm/vitepress-blog)** | A real blog engine: generated post list, tags, RSS, authors. Everything VitePress doesn't ship by default. |
 | **[vitepress-portfolio](https://github.com/BootForm/vitepress-portfolio)** | Projects, case studies, and a hire-me form that actually works. |
-| **form-styles** | Tailwind styling for forms: input types, validation, error and success states, dark mode, and full sections that pair a form with a map or contact info. |
+| **[form-styles](https://github.com/BootForm/form-styles)** | Tailwind styling for forms: input types, validation, error and success states, dark mode, and full sections that pair a form with a map or contact info. |
 
 These are being built now, one at a time, and land here as they're finished. Watch the org if you
 want to know when.
