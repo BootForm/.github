@@ -13,7 +13,7 @@ you can send to someone.
 
 | | |
 |---|---|
-| **first-website** | Your first page on the internet, in 15 minutes. Browser only, nothing to install. |
+| **[first-website](https://github.com/BootForm/first-website)** | Your first page on the internet, in 15 minutes. Browser only, nothing to install. |
 | **one-page-site** | A single-page site you wouldn't be embarrassed by, on your own domain. |
 | **vitepress-marketing** | VitePress as a proper marketing site with a blog. Not a docs site wearing a hat. |
 | **vitepress-portfolio** | Projects, case studies, and a hire-me form that actually works. |
