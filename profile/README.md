@@ -16,6 +16,7 @@ you can send to someone.
 | **[first-website](https://github.com/BootForm/first-website)** | Your first page on the internet, in 15 minutes. Browser only, nothing to install. |
 | **[one-page-site](https://github.com/BootForm/one-page-site)** | A single-page site you wouldn't be embarrassed by, on your own domain. |
 | **[vitepress-marketing](https://github.com/BootForm/vitepress-marketing)** | VitePress as a proper marketing site with a blog. Not a docs site wearing a hat. |
+| **[vitepress-blog](https://github.com/BootForm/vitepress-blog)** | A real blog engine: generated post list, tags, RSS, authors. Everything VitePress doesn't ship by default. |
 | **vitepress-portfolio** | Projects, case studies, and a hire-me form that actually works. |
 | **contact-form-recipes** | Copy-paste forms for Astro, Hugo, Jekyll, Eleventy, Svelte and VitePress. |
 | **form-styles** | Tailwind styling for forms: validation, error and success states, dark mode. |
