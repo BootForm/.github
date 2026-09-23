@@ -44,7 +44,7 @@ none) you're building with.
 |---|---|
 | **[form-styles](https://bootform.github.io/form-styles/)** | Live, copy-paste Tailwind styling for forms: input types, validation, error and success states, dark mode, and full sections that pair a form with a map or contact info. |
 | **[contact-form-recipes](https://github.com/BootForm/contact-form-recipes)** | Copy-paste forms for Astro, Hugo, Jekyll, Eleventy, Svelte and VitePress. Vanilla JS, React, Vue and Angular are already covered in the [docs site's framework guides](https://bootform.com/docs/framework-vanilla-js). |
-| **[site-skills](https://github.com/BootForm/site-skills)** | A Claude Code plugin marketplace. `/plugin marketplace add BootForm/site-skills`, then ask for a portfolio, a blog, or a marketing site with a working contact form, no account needed until you claim it. |
+| **[site-skills](https://github.com/BootForm/site-skills)** | A Claude Code plugin marketplace. `/plugin marketplace add BootForm/site-skills`, then ask for a portfolio, a blog, or a marketing site with a working contact form, no account needed until you claim it. Already have one? Ask it to add a new section, such as books, team members or events, each with its own listing page. |
 
 ---
 
