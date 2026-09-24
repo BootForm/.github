@@ -23,7 +23,33 @@ No build step, no framework, no terminal required.
 ## VitePress
 
 More setup than the plain HTML templates (a terminal and Node.js), and more site for it: real
-pages, a generated post list, tags, and RSS where a template calls for them.
+pages, a generated post list, tags, and RSS where a template calls for them. Two ways in.
+
+### With Claude Code: install the skills and ask
+
+```
+/plugin marketplace add BootForm/site-skills
+/plugin install vitepress@site-skills
+/plugin install bootform@site-skills
+```
+
+Then start from a template and grow it, one command at a time:
+
+```
+/vitepress:portfolio-site   I'm Maya, a product designer in Portland
+/vitepress:add-section      three-tier pricing and an FAQ on the home page
+/vitepress:add-collection   books, with the author and year on each card
+/vitepress:theme            dark green, with a serif font for headings
+/vitepress:icons            icons for pool, gym and parking, and my Instagram in the header
+/bootform:add-contact-form
+```
+
+Start a site with `/vitepress:marketing-site`, `/vitepress:portfolio-site`, `/vitepress:blog-site`
+or `/vitepress:villa-site`. The full list is in [site-skills](https://github.com/BootForm/site-skills).
+
+### By hand: use a template
+
+Click **Use this template** on one of these and follow its README.
 
 | | |
 |---|---|
@@ -31,6 +57,9 @@ pages, a generated post list, tags, and RSS where a template calls for them.
 | **[vitepress-blog](https://github.com/BootForm/vitepress-blog)** | A real blog engine: generated post list, tags, RSS, authors. Everything VitePress doesn't ship by default. |
 | **[vitepress-portfolio](https://github.com/BootForm/vitepress-portfolio)** | Projects, case studies, and a hire-me form that actually works. |
 | **[vitepress-villa](https://github.com/BootForm/vitepress-villa)** | A villa or holiday rental site: rooms, a gallery, a local-guide journal, and a booking enquiry form. |
+
+Then add page sections from **[site-sections](https://bootform.github.io/site-sections/)**:
+heroes, features, pricing, FAQs, footers and more, written to survive VitePress's own styles.
 
 **More frameworks land here over time** (Astro and React are next in line), each getting its own
 section once there's more than one template in it.
@@ -44,7 +73,8 @@ none) you're building with.
 |---|---|
 | **[form-styles](https://bootform.github.io/form-styles/)** | Live, copy-paste Tailwind styling for forms: input types, validation, error and success states, dark mode, and full sections that pair a form with a map or contact info. |
 | **[contact-form-recipes](https://github.com/BootForm/contact-form-recipes)** | Copy-paste forms for Astro, Hugo, Jekyll, Eleventy, Svelte and VitePress. Vanilla JS, React, Vue and Angular are already covered in the [docs site's framework guides](https://bootform.com/docs/framework-vanilla-js). |
-| **[site-skills](https://github.com/BootForm/site-skills)** | A Claude Code plugin marketplace. `/plugin marketplace add BootForm/site-skills`, then ask for a portfolio, a blog, or a marketing site with a working contact form, no account needed until you claim it. Already have one? Ask it to add a new section, such as books, team members or events, each with its own listing page. |
+| **[site-sections](https://bootform.github.io/site-sections/)** | 27 copy-paste page sections (heroes, features, testimonials, pricing, FAQs, footers) with live previews at desktop and phone width, in Tailwind CSS v4. Built for VitePress, fine anywhere Tailwind runs. |
+| **[site-skills](https://github.com/BootForm/site-skills)** | A Claude Code plugin marketplace: `/vitepress:...` commands that start a site from one of the templates above and grow it (sections, new kinds of content, theme, icons), and `/bootform:...` commands that make its form work, with no account needed until you claim it. |
 
 ---
 
@@ -52,8 +82,8 @@ none) you're building with.
 
 Every template ships an `AGENTS.md`, so Claude Code, Cursor, Copilot or whatever you use reads the
 conventions instead of guessing at them. Ask for a marketing site and you get a marketing site,
-not a documentation site with the words changed. See **site-skills** above if you're using Claude
-Code specifically.
+not a documentation site with the words changed. If you're using Claude Code, the **site-skills** commands
+above do the whole thing for you.
 
 ## While you wait
 
