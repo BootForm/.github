@@ -64,6 +64,14 @@ heroes, features, pricing, FAQs, footers and more, written to survive VitePress'
 **More frameworks land here over time** (Astro and React are next in line), each getting its own
 section once there's more than one template in it.
 
+## Mobile apps
+
+Not a website at all: the same "no backend to send it to" problem, inside an app.
+
+| | |
+|---|---|
+| **[in-app-feedback](https://github.com/BootForm/in-app-feedback)** | A "Send feedback" screen for Android (Jetpack Compose) and Flutter apps, with no server to run. Reports arrive with the app version, OS and device attached, wait on the phone while it's offline, and can include a screenshot. One file to copy per platform. |
+
 ## Common
 
 Not templates to clone; reference material and tools that work no matter which framework (or
