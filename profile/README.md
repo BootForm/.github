@@ -93,6 +93,13 @@ conventions instead of guessing at them. Ask for a marketing site and you get a 
 not a documentation site with the words changed. If you're using Claude Code, the **site-skills** commands
 above do the whole thing for you.
 
+Your agent can also set up the form itself through BootForm's MCP server: create the form, paste the
+snippet, add email or Discord notifications and read what arrives, after one browser sign-in and with no
+API key. It's on every plan, including Free. Setup is in the
+[MCP & AI agents guide](https://bootform.com/docs/mcp-and-ai-agents).
+
+[![BootForm MCP connector](https://glama.ai/mcp/connectors/com.bootform/bootform/badges/score.svg)](https://glama.ai/mcp/connectors/com.bootform/bootform)
+
 ## While you wait
 
 The BootForm documentation is already live and free to read, including framework guides for
